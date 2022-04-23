@@ -11,7 +11,7 @@ var date = new Intl.DateTimeFormat('en-GB', {
 
 function tick() {
   var now = new Date();
-  var greet = "go to bed";
+  var greet = "holy shit go to bed";
   var hour = now.getHours();
   if (hour > 18) {
     greet = "good night";

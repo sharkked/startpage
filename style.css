@@ -83,31 +83,28 @@ ul {
   white-space: nowrap;
 }
 
-#media li:first-child {
-  color: #ef5f6b;
-}
-
+#media li:first-child,
 #media a:focus,
 #media a:hover {
   color: #ef5f6b;
 }
 
-#school li:first-child {
-  color: #97ca72;
-}
-
+#school li:first-child,
 #school a:focus,
 #school a:hover {
   color: #97ca72;
 }
 
-#personal li:first-child {
-  color: #5ab0f6;
-}
-
+#personal li:first-child,
 #personal a:focus,
 #personal a:hover {
   color: #5ab0f6;
+}
+
+#wordle li:first-child,
+#wordle a:focus,
+#wordle a:hover {
+  color: #d19a66;
 }
 
 li:first-child {
